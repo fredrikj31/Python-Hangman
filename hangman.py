@@ -1,10 +1,12 @@
-from levels import levels
+from levels import Levels
+
+levels = Levels()
 
 class Hangman:
 
 	def startGame(self, Word):
-		print(levels.Level7)
-		pass
+		self.clearBoard()
+		levels.printLevel(1, 0, "Houses")
 
 	def pickWordFromList(self):
 		pass
@@ -14,3 +16,9 @@ class Hangman:
 
 	def splitWord(self):
 		pass
+
+	def clearBoard(self):
+		i = 0
+		while i < 101:
+			print(" ")
+			i += 1

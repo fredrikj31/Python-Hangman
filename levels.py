@@ -1,11 +1,11 @@
-class levels:
+class Levels:
 
-   	Level1 = """
+    Level1 = """
       ______
-      |    |      Phrase #: {}
+      |    |      
       |    o      Guessed : {}
+      |           Guesses left : {}
       |           Average :  50%
-      |    
       |   
      _|_
     |   |______
@@ -13,84 +13,10 @@ class levels:
     |__________|
  
        Phrase: {}
-	"""
+    """
 
-   	Level2 = """
-      ______
-      |    |      Phrase #: {}
-      |    o      Guessed : {}
-      |    |      Average :  50%
-      |    
-      |   
-     _|_
-    |   |______
-    |          |
-    |__________|
- 
-       Phrase: {}
-	"""
-
-   	Level3 = """
-      ______
-      |    |      Phrase #: {}
-      |    o      Guessed : {}
-      |   /|       Average :  50%
-      |    
-      |   
-     _|_
-    |   |______
-    |          |
-    |__________|
- 
-       Phrase: {}
-	"""
-
-   	Level4 = """
-      ______
-      |    |      Phrase #: {}
-      |    o      Guessed : {}
-      |   /|\     Average :  50%
-      |    
-      |   
-     _|_
-    |   |______
-    |          |
-    |__________|
- 
-       Phrase: {}
-	"""
-
-   	Level5 = """
-      ______
-      |    |      Phrase #: {}
-      |    o      Guessed : {}
-      |   /|\      Average :  50%
-      |    |
-      |   
-     _|_
-    |   |______
-    |          |
-    |__________|
- 
-       Phrase: {}
-	"""
-
-   	Level6 = """
-      ______
-      |    |      Phrase #: {}
-      |    o      Guessed : {}
-      |   /|\     Average :  50%
-      |    |
-      |  _/
-     _|_
-    |   |______
-    |          |
-    |__________|
- 
-       Phrase: {}
-	"""
-
-   	Level7 = """
+    #FINAL LEVEL
+    Level7 = """
       ______
       |    |      Phrase #: {}
       |    o      Guessed : {}
@@ -103,4 +29,8 @@ class levels:
     |__________|
  
        Phrase: {}
-	"""
+    """
+
+    def printLevel(self, levelNr, guesses, word):
+        if levelNr == 1:
+            print(self.Level1.format(12, 0, "Hej med dig"))
