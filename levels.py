@@ -1,119 +1,106 @@
-Level1 = """
-  ______
-  |    |      Phrase #: {}
-  |    o      Guessed : {}
-  |           Average :  50%
-  |    
-  |   
- _|_
-|   |______
-|          |
-|__________|
+class levels:
+
+   	Level1 = """
+      ______
+      |    |      Phrase #: {}
+      |    o      Guessed : {}
+      |           Average :  50%
+      |    
+      |   
+     _|_
+    |   |______
+    |          |
+    |__________|
  
-Phrase: {}
+       Phrase: {}
 	"""
 
-Level2 = """
-  ______
-  |    |      Phrase #: {}
-  |    o      Guessed : {}
-  |    |     Average :  50%
-  |    
-  |  
- _|_
-|   |______
-|          |
-|__________|
+   	Level2 = """
+      ______
+      |    |      Phrase #: {}
+      |    o      Guessed : {}
+      |    |      Average :  50%
+      |    
+      |   
+     _|_
+    |   |______
+    |          |
+    |__________|
  
-Phrase: {}
+       Phrase: {}
 	"""
 
-Level3 = """
-  ______
-  |    |      Phrase #: {}
-  |    o      Guessed : {}
-  |   /|     Average :  50%
-  |    
-  |  
- _|_
-|   |______
-|          |
-|__________|
+   	Level3 = """
+      ______
+      |    |      Phrase #: {}
+      |    o      Guessed : {}
+      |   /|       Average :  50%
+      |    
+      |   
+     _|_
+    |   |______
+    |          |
+    |__________|
  
-Phrase: {}
+       Phrase: {}
 	"""
 
-Level4 = """
-  ______
-  |    |      Phrase #: {}
-  |    o      Guessed : {}
-  |   /|\    Average :  50%
-  |    
-  |  
- _|_
-|   |______
-|          |
-|__________|
+   	Level4 = """
+      ______
+      |    |      Phrase #: {}
+      |    o      Guessed : {}
+      |   /|\     Average :  50%
+      |    
+      |   
+     _|_
+    |   |______
+    |          |
+    |__________|
  
-Phrase: {}
+       Phrase: {}
 	"""
 
-Level5 = """
-  ______
-  |    |      Phrase #: {}
-  |    o      Guessed : {}
-  |   /|\    Average :  50%
-  |    |
-  |  
- _|_
-|   |______
-|          |
-|__________|
+   	Level5 = """
+      ______
+      |    |      Phrase #: {}
+      |    o      Guessed : {}
+      |   /|\      Average :  50%
+      |    |
+      |   
+     _|_
+    |   |______
+    |          |
+    |__________|
  
-Phrase: {}
+       Phrase: {}
 	"""
 
-Level6 = """
-  ______
-  |    |      Phrase #: {}
-  |    o      Guessed : {}
-  |   /|\    Average :  50%
-  |    |
-  |   /
- _|_
-|   |______
-|          |
-|__________|
+   	Level6 = """
+      ______
+      |    |      Phrase #: {}
+      |    o      Guessed : {}
+      |   /|\     Average :  50%
+      |    |
+      |  _/
+     _|_
+    |   |______
+    |          |
+    |__________|
  
-Phrase: {}
+       Phrase: {}
 	"""
 
-Level7 = """
-  ______
-  |    |      Phrase #: {}
-  |    o      Guessed : {}
-  |   /|\    Average :  50%
-  |    |
-  |   / \
- _|_
-|   |______
-|          |
-|__________|
+   	Level7 = """
+      ______
+      |    |      Phrase #: {}
+      |    o      Guessed : {}
+      |   /|\     Average :  50%
+      |    |
+      |  _/ \_
+     _|_
+    |   |______
+    |          |
+    |__________|
  
-Phrase: {}
-	"""
-
-Level7 = """
-  ______
-  |    |      Phrase #: {}
-  |    o      Guessed : {}
-  |   /|\    Average :  50%
-  |    |
-  |   / \
- _|_
-|   |______
-|          |
-|__________|
- 
-Phrase: {}
+       Phrase: {}
 	"""
